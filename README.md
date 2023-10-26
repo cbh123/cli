@@ -84,7 +84,7 @@ Fine-tune [SDXL] with your own images:
 
 ```console
 $ replicate train --destination mattt/sdxl-dreambooth --web \
-      stability-ai/sdxl \
+      stability-ai/sdxl:version \
       input_images=@path/to/pictures.zip \
       use_face_detection_instead=true
 # opens the training in browser
